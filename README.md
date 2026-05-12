@@ -329,8 +329,6 @@ torchrun --nproc_per_node=8 ./src/training/train.py \
 ---
 
 ## Results
-
-## Results
  
 All models are evaluated on **MeowBench**. It is a expert-verified, quad-modal multiple-choice questions set covering 30 feline intent categories.
  
