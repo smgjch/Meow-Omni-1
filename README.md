@@ -2,11 +2,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/arXiv-2605.09152-b31b1b.svg?style=for-the-badge" alt="arXiv"/>
+  <img src="https://img.shields.io/badge/NeurIPS%202026-Poster-8A2BE2.svg?style=for-the-badge" alt="NeurIPS 2026 Poster"/>
   <img src="https://img.shields.io/badge/🤗%20Model-smgjch%2FMeow--Omni--1-yellow?style=for-the-badge" alt="HuggingFace"/>
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License"/>
   <img src="https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge" alt="Python"/>
 </p>
 
+> 🎉 **Accepted at NeurIPS 2026 (Poster)**
+>
 > **The official codebase for the paper:**  
 > [Meow-Omni 1: A Multimodal Large Language Model for Feline Ethology](https://arxiv.org/abs/2605.09152v1)  
 > Jucheng Hu, Zhangquan Chen, Yulin Chen, Chengjie Hong, Liang Zhou, Tairan Wang, Sifei Li, Giulio Zhu, Feng Zhou, Yiheng Zeng, Suorong Yang, Dongzhan Zhou
@@ -35,11 +38,11 @@ Built on top of [MiniCPM-o 4.5](https://github.com/OpenBMB/MiniCPM-o) and augmen
 | Resource | Link |
 |---|---|
 | 📄 Paper | [arXiv:2605.09152](https://arxiv.org/abs/2605.09152v1) |
+| 🎉 Conference | **NeurIPS 2026 Poster** |
 | 🤗 Model Weights | [smgjch/Meow-Omni-1](https://huggingface.co/smgjch/Meow-Omni-1) |
 | 📦 Dataset (Meow-10K) | [smgjch/Meow-10K](https://huggingface.co/smgjch/Meow-Omni-1) |
 
 ---
-
 
 **Training is done in two stages:**
 1. **Stage 1 — Projector Pre-training:** Only the TSPM projector is trained; all other components are frozen.
@@ -361,6 +364,7 @@ If you use Meow-Omni 1 in your research, please cite:
              Zhou, Feng and Zeng, Yiheng and Yang, Suorong and Zhou, Dongzhan},
   journal = {arXiv preprint arXiv:2605.09152},
   year    = {2026},
+  note    = {Accepted at NeurIPS 2026 (Poster)},
   url     = {https://arxiv.org/abs/2605.09152v1}
 }
 ```
